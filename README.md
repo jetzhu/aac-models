@@ -48,7 +48,7 @@ On GMS devices, the app can also bootstrap with Google's on-device recognizer (S
 
 ## Licensing
 
-These are redistributions of third-party models, both under the **Apache License 2.0** (permits redistribution, including modified/quantized weights, with attribution + notice of changes):
+These are redistributions of third-party models, both under the **Apache License 2.0** (permits redistribution, including modified/quantized weights, with attribution + notice of changes). See [`LICENSE`](LICENSE) for the full license text and [`NOTICE`](NOTICE) for per-asset attribution and the modifications made:
 
 - **sherpa-onnx / Next-gen Kaldi (k2-fsa)** — Apache-2.0 — <https://github.com/k2-fsa/sherpa-onnx>
   - `sherpa-stream-zh-en-int8.zip` is the int8 subset of `sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20`.

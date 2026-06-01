@@ -1,0 +1,34 @@
+aac-models
+Copyright 2026 Jian Jet Zhu
+
+This repository redistributes third-party machine-learning model weights used
+for on-device speech recognition in the AAC (Ambient Audio Companion) app.
+The hosted model files are NOT original works of this repository. They are
+redistributed under the Apache License, Version 2.0 (see the LICENSE file),
+with the modifications noted below.
+
+================================================================================
+sherpa-onnx streaming Zipformer, bilingual Chinese + English (int8)
+--------------------------------------------------------------------------------
+  Asset:        sherpa-stream-zh-en-int8.zip
+  Upstream:     sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20
+  Project:      Next-gen Kaldi / sherpa-onnx (k2-fsa)
+  Homepage:     https://github.com/k2-fsa/sherpa-onnx
+  License:      Apache License 2.0
+  Modifications: Repackaged as a .zip containing only the int8 encoder,
+                 fp32 decoder, int8 joiner, and tokens; the upstream fp32
+                 encoder/joiner weights were removed to reduce download size.
+
+================================================================================
+Qwen3-ASR-0.6B
+--------------------------------------------------------------------------------
+  Asset:        qwen3-asr-0.6b-q8_0.gguf
+  Upstream:     Qwen/Qwen3-ASR-0.6B (Alibaba / Qwen)
+  Homepage:     https://huggingface.co/Qwen/Qwen3-ASR-0.6B
+  License:      Apache License 2.0
+  Modifications: Quantized to Q8_0 and converted to the GGUF format.
+
+================================================================================
+
+Each upstream project is the copyright holder of its respective model weights.
+If you are a rights holder and would like an asset removed, please open an issue.
