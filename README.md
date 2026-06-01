@@ -48,9 +48,11 @@ On GMS devices, the app can also bootstrap with Google's on-device recognizer (S
 
 ## Licensing
 
-These are redistributions of third-party models under their original licenses:
+These are redistributions of third-party models, both under the **Apache License 2.0** (permits redistribution, including modified/quantized weights, with attribution + notice of changes):
 
 - **sherpa-onnx / Next-gen Kaldi (k2-fsa)** — Apache-2.0 — <https://github.com/k2-fsa/sherpa-onnx>
-- **Qwen3-ASR (Alibaba / QwenLM)** — see the upstream model card for its license terms — <https://github.com/QwenLM>
+  - `sherpa-stream-zh-en-int8.zip` is the int8 subset of `sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20`.
+- **Qwen3-ASR-0.6B (Alibaba / Qwen)** — Apache-2.0 — <https://huggingface.co/Qwen/Qwen3-ASR-0.6B>
+  - `qwen3-asr-0.6b-q8_0.gguf` is a **Q8_0 GGUF quantization** of the official `Qwen/Qwen3-ASR-0.6B` weights (modification = quantization to GGUF).
 
 No model weights here are original work; this repo only mirrors/repackages them for convenient first-run download. If you are a rights holder and want an asset removed, open an issue.
