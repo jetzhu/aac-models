@@ -3,7 +3,7 @@
 Public hosting for the on-device speech-to-text model assets used by **AAC (Ambient Audio Companion)**.
 
 > 📱 **想直接安装 App?看 [安装指引 / Install Guide](install/INSTALL.md)**(扫码即下,中英图文)。
-> Latest app build: **[v0.3.4](https://github.com/jetzhu/aac-models/releases/tag/app-v0.3.4)** · [direct download (release, ~96MB)](https://github.com/jetzhu/aac-models/releases/download/app-v0.3.4/aac-v0.3.4.apk).
+> Latest app build: **[v0.4.5](https://github.com/jetzhu/aac-models/releases/tag/app-v0.4.5)** · [direct download (release, ~97MB)](https://github.com/jetzhu/aac-models/releases/download/app-v0.4.5/aac-v0.4.5.apk).
 
 The AAC app's code repository is private, so these model files live here as a public release so the app can **download them on first launch** (no manual `adb push` needed). The files are repackagings / mirrors of open-source models — all credit to the original authors (see [Licensing](#licensing)).
 

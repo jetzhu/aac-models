@@ -3,7 +3,7 @@
 > **Ambient Audio Companion (AAC)** — 全天候端侧录音 + 离线转写/翻译的 Android App。
 > An all-day, on-device audio recorder with offline speech-to-text & translation for Android.
 >
-> 当前版本 / Current build: **v0.3.4** · 仅支持 64 位 ARM 手机 (arm64-v8a) / 64-bit ARM phones only · Android 10+
+> 当前版本 / Current build: **v0.4.5** · 仅支持 64 位 ARM 手机 (arm64-v8a) / 64-bit ARM phones only · Android 10+
 
 ---
 
@@ -12,15 +12,15 @@
 ### 一、扫码下载(最省事)
 用**手机相机**对准下面的二维码,点弹出的链接即可直接下载安装包(约 96MB):
 
-<img src="qr-v0.3.4.png" width="220" alt="扫码下载 AAC v0.3.4">
+<img src="qr-v0.4.5.png" width="220" alt="扫码下载 AAC v0.4.5">
 
 > 扫码下载的是 **release 版**(推荐朋友日常使用)。
 
 ### 二、或点链接下载
 - **推荐 · release 版**(约 96MB):
-  https://github.com/jetzhu/aac-models/releases/download/app-v0.3.4/aac-v0.3.4.apk
+  https://github.com/jetzhu/aac-models/releases/download/app-v0.4.5/aac-v0.4.5.apk
 - **排错 · debug 版**(约 112MB,日志更全;遇到问题时再装这个抓日志):
-  https://github.com/jetzhu/aac-models/releases/download/app-v0.3.4/aac-v0.3.4-debug.apk
+  https://github.com/jetzhu/aac-models/releases/download/app-v0.4.5/aac-v0.4.5-debug.apk
 
 > release 与 debug 是**两个独立 App**,可以同时装,互不影响。平时用 release;出问题再装 debug 给我发日志。
 
@@ -48,17 +48,17 @@
 ## 🇬🇧 English
 
 ### 1. Scan to download (easiest)
-Point your **phone camera** at the QR code below and tap the link to download the installer (~96MB):
+Point your **phone camera** at the QR code below and tap the link to download the installer (~97MB):
 
-<img src="qr-v0.3.4.png" width="220" alt="Scan to download AAC v0.3.4">
+<img src="qr-v0.4.5.png" width="220" alt="Scan to download AAC v0.4.5">
 
 > The QR points to the **release** build (recommended for everyday use).
 
 ### 2. Or download via link
-- **Recommended · release** (~96MB):
-  https://github.com/jetzhu/aac-models/releases/download/app-v0.3.4/aac-v0.3.4.apk
+- **Recommended · release** (~97MB):
+  https://github.com/jetzhu/aac-models/releases/download/app-v0.4.5/aac-v0.4.5.apk
 - **Troubleshooting · debug** (~112MB, verbose logs — install this only if something breaks):
-  https://github.com/jetzhu/aac-models/releases/download/app-v0.3.4/aac-v0.3.4-debug.apk
+  https://github.com/jetzhu/aac-models/releases/download/app-v0.4.5/aac-v0.4.5-debug.apk
 
 > release and debug are **two separate apps** and can coexist. Use release normally; install debug to capture logs if you hit an issue.
 
